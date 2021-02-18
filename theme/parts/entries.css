@@ -13,10 +13,10 @@
 	border-radius: 5px !important;
 	box-shadow: var(--gnome-entry-box-shadow) !important;
 	color: var(--gnome-entry-color) !important;
-	height: 34px !important;
-	max-height: 34px !important;
+	height: 30px !important;
+	max-height: 30px !important;
 	margin: 0 !important;
-	padding: 6px !important;
+	padding: 4px !important;
 	box-sizing: border-box;
 }
 
@@ -71,7 +71,7 @@
 	border: 0 !important;
 }
 #urlbar, #searchbar {
-	margin: 0 3px !important;
+	margin: 0 !important;
 	padding: 0 !important;
 }
 .searchbar-textbox {

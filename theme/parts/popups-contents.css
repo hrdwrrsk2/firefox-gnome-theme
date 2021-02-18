@@ -9,6 +9,12 @@
 #context-navigation > menuitem > .menu-iconic-left {
 	margin: auto !important;
 }
+#context-navigation .menu-iconic-icon {
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 16px !important;
+	height: 16px !important;
+}
 #context-navigation menuitem {
 	--toolbarbutton-active-background: transparent !important;
 	--toolbarbutton-hover-background: transparent !important;

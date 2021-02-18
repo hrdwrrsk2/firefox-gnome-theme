@@ -21,7 +21,7 @@
 }
 
 /* Change headerbar buttons colors */
-:root[privatebrowsingmode="temporary"] #nav-bar toolbarbutton:not(#urlbar-zoom-button):not(.subviewbutton),
+:root[privatebrowsingmode="temporary"][tabsintitlebar] #nav-bar toolbarbutton:not(#urlbar-zoom-button):not(.subviewbutton),
 :root[privatebrowsingmode="temporary"][tabsintitlebar] #titlebar .titlebar-button,
 :root[privatebrowsingmode="temporary"][tabsintitlebar][inFullscreen] #window-controls toolbarbutton {
 	--gnome-button-background: var(--gnome-private-button-background) !important;
@@ -49,7 +49,7 @@
 	display: block;	
 	position: absolute;
 	width: 64px;
-	height: 46px;
+	height: 40px;
 	top: 0;
 	transform: translate(15px, 0);
 	fill: var(--gnome-toolbar-color) !important;

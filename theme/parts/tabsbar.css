@@ -10,6 +10,10 @@
 	margin-bottom: -1px !important;
 }
 
+:root:not([tabsintitlebar]) #TabsToolbar > .toolbar-items {
+	margin-bottom: 0px !important;
+}
+
 /* Tabs bar height */
 #tabbrowser-tabs,
 #tabbrowser-tabs arrowscrollbox {
@@ -26,8 +30,8 @@
 }
 
 tab > stack {
-	height: 38px !important;
-	min-height: 38px !important;
+	height: 33px !important;
+	min-height: 33px !important;
 }
 /* Extra margin for the first and last tabs */
 .tabbrowser-tab[first-tab]:not([pinned=true]) {
@@ -68,7 +72,7 @@ tab > stack {
 }
 
 /* Space between tabs */
-.tabbrowser-tab:not([pinned=true]) {
+.tabbrowser-tab {
 	margin: 0 4px !important;
 }
 
@@ -174,7 +178,7 @@ tab[selected]:-moz-window-inactive {
 	-moz-context-properties: fill, fill-opacity;
 	height: 16px;
 	opacity: .3;
-	padding: 2px;
+	padding: 0px;
 	width: 16px;
 }
 :root:-moz-window-inactive .tab-close-button:not(#hack) {

@@ -45,11 +45,11 @@ tabmodalprompt[role="dialog"] button[class*='tabmodalprompt-button'] {
 	border: 1px solid var(--gnome-button-border-color) !important;
 	border-bottom-color: var(--gnome-button-border-accent-color) !important;
 	border-radius: 5px !important;
-	padding: 0 2px !important;
-	height: 34px !important;
-	max-height: 34px !important;
-	min-height: 34px !important;
-	min-width: 34px !important;
+	padding: 0 !important;
+	height: 30px !important;
+	max-height: 30px !important;
+	min-height: 30px !important;
+	min-width: 30px !important;
 	color: var(--gnome-toolbar-color) !important;
 	outline: 0 !important;
 	font: menu !important;
@@ -62,6 +62,7 @@ tabmodalprompt[role="dialog"] button[class*='tabmodalprompt-button'] {
 }
 #TabsToolbar .toolbarbutton-1 {
 	margin: 2px 3px !important;
+	margin-top: 1px !important;
 }
 .close-icon:not(.tab-close-button) {
 	margin-left: 6px !important;

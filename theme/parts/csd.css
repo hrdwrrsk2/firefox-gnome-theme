@@ -14,7 +14,7 @@
 /* Window buttons: at least 1 button */
 @media (-moz-gtk-csd-minimize-button), (-moz-gtk-csd-maximize-button), (-moz-gtk-csd-close-button) {
 	:root[tabsintitlebar]:not([inFullscreen]) #nav-bar {
-		padding-right: 50px !important;
+		padding-right: 44px !important;
 	}
 }
 /* Window buttons: at least 2 buttons */
@@ -22,13 +22,13 @@
        (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-close-button),
        (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
 	:root[tabsintitlebar]:not([inFullscreen]) #nav-bar {
-		padding-right: 90px !important;
+		padding-right: 78px !important;
 	}
 }
 /* Window buttons: 3 buttons */
 @media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
 	:root[tabsintitlebar]:not([inFullscreen]) #nav-bar {
-		padding-right: 130px !important;
+		padding-right: 112.5px !important;
 	}
 }
 
@@ -47,7 +47,7 @@
 	/* Window controls: at least 1 button */
 	@media (-moz-gtk-csd-minimize-button), (-moz-gtk-csd-maximize-button), (-moz-gtk-csd-close-button) {
 		:root[tabsintitlebar]:not([inFullscreen]) #nav-bar {
-			padding-left: 50px !important;
+			padding-left: 44px !important;
 		}
 	}
 	/* Window controls: at least 2 buttons */
@@ -55,13 +55,13 @@
 				 (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-close-button),
 				 (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
 		:root[tabsintitlebar]:not([inFullscreen]) #nav-bar {
-			padding-left: 90px !important;
+			padding-left: 78px !important;
 		}
 	}
 	/* Window controls: 3 buttons */
 	@media (-moz-gtk-csd-minimize-button) and (-moz-gtk-csd-maximize-button) and (-moz-gtk-csd-close-button) {
 		:root[tabsintitlebar]:not([inFullscreen]) #nav-bar {
-			padding-left: 130px !important;
+			padding-left: 112px !important;
 		}
 	} 
 }
@@ -104,7 +104,7 @@
 :root[tabsintitlebar] #titlebar-buttonbox-container,
 :root[tabsintitlebar][inFullscreen] #window-controls {
 	-moz-appearance: none !important;
-	padding: 6px 3px;
+	padding: 5px 3px;
 	position: absolute !important;	
 	right: 0;
 	top: 0;
@@ -127,7 +127,7 @@
 :root[tabsintitlebar] #titlebar .titlebar-button {
 	border-radius: 100% !important;
 	height: 30px !important;
-	margin: 2px 5px !important;
+	margin: 0px 2px !important;
 	width: 30px;
 }
 
